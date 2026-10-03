@@ -416,7 +416,7 @@ namespace MFRC522 {
     //% block="Initialize MFRC522 Module"
     //% weight=100
    export function Init() {
-       pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
+       pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P8)
        pins.spiFormat(8, 0)
        pins.digitalWritePin(DigitalPin.P16, 1)
 
